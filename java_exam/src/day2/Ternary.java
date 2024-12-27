@@ -12,7 +12,7 @@ public class Ternary {
 //			System.out.println("양수");
 //		} else {
 //			System.out.println("음수");
-//		}
+//		}  
 	}
 
 }
