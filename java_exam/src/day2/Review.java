@@ -18,9 +18,9 @@ public class Review {
 		int num1 = 10;
 		int num2 = num1++;
 		int num3 = ++num1;
-		System.out.println(num1); // 11
+		System.out.println(num1); // 12
 		System.out.println(num2); // 10
-		System.out.println(num3); // 
+		System.out.println(num3); // 12
 		
 		
 	}

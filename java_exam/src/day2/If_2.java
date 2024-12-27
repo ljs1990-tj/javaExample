@@ -13,7 +13,7 @@ public class If_2 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("숫자를 입력해 주세요 : ");
 		int num = scan.nextInt();
-		if(num % 2 == 0) {
+		if(num % 2 == 0) { // 입력받은 값을 2로 나누었을 때 0이 나오는 경우
 			System.out.println("짝수 입니다.");
 		} else {
 			System.out.println("홀수 입니다.");

@@ -10,13 +10,13 @@ public class If_3 {
 		// 70~79 => C
 		// 70미만 => F
 		int score = 95;
-		if(score >= 90) {
+		if(score >= 90) { // score이 90보다 크거나 같다면
 			System.out.println("A");
-		} else if(score >= 80) {
+		} else if(score >= 80) { // 80보다 크거나 같다면
 			System.out.println("B");
 		} else if(score >= 70) {
 			System.out.println("C");
-		} else {
+		} else { // 70미만의 값일 경우
 			System.out.println("F");
 		}
 		

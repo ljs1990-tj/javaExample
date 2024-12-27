@@ -16,15 +16,15 @@ public class Example2 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("나이를 입력하세요 : ");
 		int age = scan.nextInt();
-		if(age < 20) {
+		if(age < 20) { // age가 20보다 작다면
 			System.out.println("성인이 아닙니다.");
-		} else if(age < 30){
+		} else if(age < 30){ // age가 30보다 작다면
 			System.out.println("20대 입니다.");
-		} else if(age < 40) {
+		} else if(age < 40) { // age가 40보다 작다면
 			System.out.println("30대 입니다.");
-		} else if(age < 50) {
+		} else if(age < 50) { // age가 50보다 작다면
 			System.out.println("40대 입니다.");
-		} else {
+		} else { // age가 50이상의 숫자일 경우
 			System.out.println("50세 이상 입니다.");
 		}
 		
