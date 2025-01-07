@@ -34,7 +34,8 @@ public class FruitMain {
 		banana.name = "바나나";
 //		fruitBoxing(banana, 8);
 		banana.print();
-		
+		int qqq = 100;
+		test(qqq);
 	}
 	
 	static void test(int a) {
