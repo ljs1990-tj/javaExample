@@ -7,6 +7,10 @@ public class Human {
 	int money = 50000;
 	static int money_708 = 200000; 
 	
+	public Human(String name){
+		this.name = name;
+	}
+	
 	Human(String name, int age, String addr){
 		this.name = name;
 		this.age = age;
