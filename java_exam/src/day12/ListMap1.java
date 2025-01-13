@@ -22,20 +22,21 @@ public class ListMap1 {
 				String name = scan.next();
 				System.out.print("포인트 : ");
 				int point = scan.nextInt();
-				
+				boolean updateFlg = false;
 				for(int i=0; i<list.size(); i++) {
 					if(name.equals(list.get(i).get("name")) ) {
 						int newPoint = (int) list.get(i).get("point") + point;
 						list.get(i).put("point", newPoint);
+						updateFlg = true;
 						break;
 					}
 				}
-				
-				
-//				map.put("name", scan.next());
-				
-				
-				list.add(map);
+				if(!updateFlg) {
+					map.put("name", name);
+					map.put("point", point);
+					list.add(map);
+				}
+//				
 			} else if(menu == 2) {
 				System.out.print("이름 : ");
 				String name = scan.next();
