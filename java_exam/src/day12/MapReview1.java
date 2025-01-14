@@ -23,6 +23,6 @@ public class MapReview1 {
 		} else {
 			System.out.println("없는 과목임");
 		}
-		System.out.println(map);
+		System.out.println(map.get("java"));
 	}
 }
