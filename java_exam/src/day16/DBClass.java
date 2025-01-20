@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class DBClass {
 	Connection conn;
-	Statement stmt = null;
+	public Statement stmt = null;
 	public DBClass() {
 		// TODO Auto-generated constructor stub
 		try {

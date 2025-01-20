@@ -1,7 +1,7 @@
 package day5;
 
 public class Human {
-	String name;
+	public String name;
 	int age;
 	String addr;
 	double height;
