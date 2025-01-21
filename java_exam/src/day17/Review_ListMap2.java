@@ -31,13 +31,26 @@ public class Review_ListMap2 {
 			list.add(map);
 			System.out.println("----------------------");
 		}
-		System.out.println(list);
 		
 		// 수정할 사용자 입력 : 홍길동
-		// 리스트안에 맵에 홍길동이 있으면 -> 주소 수정할수 입력받아서 수정
+		// 리스트안에 맵에 찾는 사람이 있으면 -> 주소 수정할수 입력받아서 수정
 		// 없으면 -> 없는 사용자 입니다.
+		System.out.print("수정할 사용자 입력 : ");
+		String name = scan.next();
+		boolean userFlg = false;
+		
 		for(int i=0; i<list.size(); i++) {
-			System.out.println(list.get(i));
+			HashMap<String, Object> map = list.get(i);
+			if(map.get("name").equals(name)) {
+				System.out.print("수정할 주소 : ");
+				String addr = scan.next();
+				map.put("addr", addr);
+				userFlg = true;
+				break;
+			} 
+		}
+		if(!userFlg) {
+			System.out.println("없는 사용자");
 		}
 		
 	}

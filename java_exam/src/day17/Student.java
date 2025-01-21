@@ -33,7 +33,15 @@ public class Student extends Person{
 		
 	}
 	
-	
-	
-	
+	void temp() {
+		for(int i=0; i<100; i++) {
+			if(i == 50) {
+				return;
+			}
+			System.out.println(i);
+		}
+		System.out.println("test1");
+		System.out.println("test2");
+		System.out.println("test3");
+	}
 }

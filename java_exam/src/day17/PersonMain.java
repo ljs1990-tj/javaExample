@@ -24,6 +24,10 @@ public class PersonMain {
 		System.out.println(map.get("stuNo"));
 		System.out.println(map.get("grade"));
 		
+		
+		kim.temp();
+		
+		
 	}
 
 }
